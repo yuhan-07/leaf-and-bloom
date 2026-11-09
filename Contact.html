@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Leaf &amp; Bloom | Contact Us</title>
+
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header>
+
+         <a href="Home.html" class="logo">
+            🌿 <span>Leaf & Bloom</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+            <a href="Home.html">Home</a>
+            <a href="Plants.html">Plants</a>
+            <a href="Care.html">Care Guide</a>
+            <a href="Home.html#about">About Us</a>
+            <a href="Contact.html" class="active" aria-current="page">
+                Contact
+            </a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= PAGE HERO ================= -->
+
+        <section class="page-hero">
+
+            <div class="page-hero-text">
+
+                <p class="hero-small">GET IN TOUCH</p>
+
+                <h1>
+                    We'd Love to
+                    <span>Hear From You.</span>
+                </h1>
+
+                <p>
+                    Have a question about a plant, an order, or how to
+                    care for something you already own? Send us a message
+                    and we will happily help.
+                </p>
+
+                <a href="#message" class="primary-button">
+                    Send a Message
+                </a>
+
+            </div>
+
+            <div class="media-frame">
+                <img
+                    src="images/Contact-banner.jpg"
+                    alt="Illustration of an envelope with green leaves growing out of it"
+                >
+            </div>
+
+        </section>
+
+
+        <!-- ================= FORM AND DETAILS ================= -->
+
+        <section class="content-section" id="message">
+
+            <div class="contact-layout">
+
+                <div class="contact-card">
+
+                    <h2>Send Us a Message</h2>
+
+                    <p>
+                        Fill in the form and tell us which plant or topic
+                        you need help with.
+                    </p>
+
+                    <form action="mailto:hello@leafandbloom.com"
+                          method="post"
+                          enctype="text/plain">
+
+                        <div class="form-field">
+                            <label for="name">Full Name</label>
+                            <input type="text"
+                                   id="name"
+                                   name="name"
+                                   placeholder="Your name"
+                                   required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="email">Email Address</label>
+                            <input type="email"
+                                   id="email"
+                                   name="email"
+                                   placeholder="you@example.com"
+                                   required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="topic">What is this about?</label>
+                            <select id="topic" name="topic">
+                                <option value="plant-question">Question about a plant</option>
+                                <option value="plant-choice">Help choosing a plant</option>
+                                <option value="care-advice">Plant care advice</option>
+                                <option value="other">Something else</option>
+                            </select>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="message-text">Your Message</label>
+                            <textarea id="message-text"
+                                      name="message"
+                                      placeholder="Tell us which plant you are interested in and anything we should know."
+                                      required></textarea>
+                        </div>
+
+                        <button type="submit" class="primary-button">
+                            Send Message
+                        </button>
+
+                        <p class="form-note">
+                            This opens your email app with your message ready to send.
+                        </p>
+
+                    </form>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <h2>Contact Details</h2>
+
+                    <p>
+                        Prefer to reach out directly? Here is how.
+                    </p>
+
+                    <ul class="contact-list">
+
+                        <li>
+                            <span class="contact-icon">✉️</span>
+                            <div>
+                                <h3>Email</h3>
+                                <a href="mailto:hello@leafandbloom.com">
+                                    hello@leafandbloom.com
+                                </a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="contact-icon">⏰</span>
+                            <div>
+                                <h3>Reply Time</h3>
+                                <p>We usually reply within one to two days.</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="contact-icon">🌿</span>
+                            <div>
+                                <h3>Plant Questions</h3>
+                                <p>Mention the plant name so we can answer faster.</p>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <nav class="social-icons" aria-label="Social media links">
+
+                        <a href="https://www.facebook.com/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="facebook"
+                           aria-label="Facebook">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="https://instagram.com"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="instagram"
+                           aria-label="Instagram">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+
+                    </nav>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FAQ ================= -->
+
+        <section class="content-section alt">
+
+            <div class="section-heading">
+
+                <p>BEFORE YOU WRITE</p>
+
+                <h2>Quick Answers</h2>
+
+                <span>
+                    You might find what you need here.
+                </span>
+
+            </div>
+
+
+            <div class="faq">
+
+                <details>
+                    <summary>How do I ask about a specific plant?</summary>
+                    <p>
+                        Use the Ask About Plant button on the Plants page,
+                        or send us a message here with the plant's name.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Which plant is right for my space?</summary>
+                    <p>
+                        Tell us how much light the space gets and how much
+                        time you have for plant care. We will suggest a few
+                        plants that fit.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>My plant looks unwell. Can you help?</summary>
+                    <p>
+                        Yes. Start with the troubleshooting table in the
+                        Care Guide, and message us if the problem continues.
+                    </p>
+                </details>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            Leaf <span>&amp; Bloom</span>
+        </div>
+
+        <p>
+            Your little place for beautiful plants
+            and fresh beginnings.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="Home.html">Home</a>
+            <a href="Plants.html">Plants</a>
+            <a href="Care.html">Care Guide</a>
+            <a href="Home.html#about">About</a>
+            <a href="Contact.html">Contact</a>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <nav class="social-icons" aria-label="Social media links">
+
+                <a href="https://www.facebook.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="facebook"
+                   aria-label="Facebook">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://twitter.com"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="twitter"
+                   aria-label="Twitter">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://instagram.com"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="instagram"
+                   aria-label="Instagram">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://youtube.com"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="youtube"
+                   aria-label="YouTube">
+                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                </a>
+
+            </nav>
+
+            <p>
+                &copy; 2026 Leaf &amp; Bloom.
+                All rights reserved.
+            </p>
+
+            <p>
+                <a href="mailto:hello@leafandbloom.com">
+                    hello@leafandbloom.com
+                </a>
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
